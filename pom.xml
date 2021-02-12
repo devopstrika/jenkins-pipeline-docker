@@ -51,7 +51,7 @@
 				<configuration>
 					<repository>practise/${project.name}</repository>
 					<tag>${project.version}</tag>
-					<skipDockerInfo>true</skipDockerInfo>
+					<skipDockerInfo>false</skipDockerInfo>
 					<pullNewerImage>false</pullNewerImage>
 				</configuration>
 			</plugin>
