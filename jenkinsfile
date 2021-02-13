@@ -4,7 +4,6 @@ pipeline {
         maven 'Maven_Local'
     }
     agent any 
-   
     stages {
         
         stage('checkout'){

@@ -9,6 +9,6 @@ public class HomeController {
 	@GetMapping("/welcome")
 	public String greeting() {
 		
-		return "Welcome to my service";
+		return "Welcome to my service, just";
 	}
 }
