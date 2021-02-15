@@ -4,8 +4,10 @@ pipeline {
         maven 'Maven_Local'
     }
     agent any 
-    stages { 
+    stages {
+        
         stage('checkout'){
+          
             steps{
                git branch: 'master', url: 'https://github.com/devopstrika/jenkins-pipeline-docker.git'
             }
